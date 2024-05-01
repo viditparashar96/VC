@@ -5,7 +5,7 @@ import * as wss from "./wss.js";
 // Initialize the store with the initial state
 // https://vc-1m4y.onrender.com/
 // http://localhost:8080
-const socket = io("http://localhost:8080");
+const socket = io("https://vc-1m4y.onrender.com/");
 wss.resgisterSocketEvents(socket);
 
 webRTCHandler.getLocalPreview();
